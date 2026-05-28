@@ -1,1 +1,23 @@
-# DMP41
+# DMP41 Calibration System
+
+A standalone, web-based platform for ISO 376-compliant force calibrations using the HBM DMP41 precision amplifier.
+
+## Quick Start (Windows)
+
+1.  **Run the Manager**: Double-click `manage_server.bat` in the project root.
+2.  **Follow Setup**: The script will automatically check for Node.js and Python. If they are missing, it will open your browser to the download pages.
+3.  **Automatic Install**: Once software is detected, it will automatically install all necessary dependencies (`npm install` and `pip install`).
+4.  **Start Server**: The script will start the server in the terminal.
+5.  **Open Dashboard**: Navigate to `http://localhost:3000` in your web browser.
+
+## Features
+- Real-time data acquisition from HBM DMP41.
+- Native Data Logger suite replicating legacy Excel formats.
+- ISO 376 Uncertainty Engine.
+- Historical Data Archival system.
+- Legacy Excel report generation.
+
+## Troubleshooting
+- If you see "Node.js not found", ensure you have installed it from [nodejs.org](https://nodejs.org/).
+- If Python packages fail to install, ensure Python is added to your system PATH.
+- To stop the server at any time, press `Ctrl+C` in the terminal window.
